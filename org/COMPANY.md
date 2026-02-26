@@ -1,31 +1,35 @@
-# COMPANY.md — ข้อมูลองค์กร Siamraj
+# COMPANY.md — Siamraj Co., Ltd.
 
-## บริษัท
+## ข้อมูลบริษัท
 - **ชื่อ:** Siamraj Co., Ltd.
+- **ชื่อภาษาไทย:** บริษัท สยามราช จำกัด
 - **Domain:** siamraj.com
 - **Website:** TBD
 - **ที่อยู่:** TBD
 - **เบอร์โทร:** TBD
+- **ก่อตั้ง:** TBD
 
-## Vision & Mission
-- **Vision:** TBD
-- **Mission:** TBD
-- **Core Values:** TBD
+## Vision
+> "เป็นองค์กรที่ขับเคลื่อนด้วยข้อมูล สร้างคุณค่าให้ลูกค้าและพนักงานอย่างยั่งยืน"
+
+## Mission
+> "ให้บริการที่ดีที่สุดด้วยทีมที่แข็งแกร่ง ระบบที่ชัดเจน และวัฒนธรรมที่เปิดกว้าง"
+
+## Core Values
+1. **Transparency** — โปร่งใส วัดได้ เห็นได้
+2. **Ownership** — รับผิดชอบงานของตัวเองเต็มที่
+3. **Growth** — เรียนรู้และพัฒนาอย่างต่อเนื่อง
+4. **Collaboration** — ทำงานเป็นทีม ช่วยเหลือกัน
+5. **Customer First** — ลูกค้าต้องได้รับประสบการณ์ที่ดีที่สุด
 
 ## โครงสร้างองค์กร
-- 5 ระดับชั้น (org_level 1-5)
-- ดูรายละเอียดใน `ORG_CHART.md`
-- ดูแผนกใน `DEPARTMENTS.csv`
-- ดูตำแหน่งใน `POSITIONS.csv`
-- ดูพนักงานใน `USERS.csv`
+- ดูแผนผัง: `org/ORG_CHART.md`
+- ดูแผนก: `org/DEPARTMENTS.csv`
+- ดูตำแหน่ง: `org/POSITIONS.csv`
+- ดูพนักงาน: `org/USERS.csv`
 
-## Products & Services
-_(กรอกภายหลัง — ดูเพิ่มเติมใน knowledge/products/)_
+## นโยบายหลัก
+- ดู: `knowledge/policies/`
 
-## Key Contacts
-- **CEO:** TBD
-- **HR:** TBD
-- **IT Support:** TBD
-
-## Policies
-_(ดูเพิ่มเติมใน knowledge/sop/)_
+## OKR / KPI
+- ดู: `knowledge/okr/`
