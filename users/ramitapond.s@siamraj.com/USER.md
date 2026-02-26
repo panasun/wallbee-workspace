@@ -5,6 +5,6 @@
 - **Email:** ramitapond.s@siamraj.com
 - **แผนก:** SNO
 - **Employee ID:** EMP004
-- **Telegram Chat ID:** _(รอกรอก)_
+- **Telegram Chat ID:** 8615278427
 - **Access Level:** 1 (Employee)
 - **Timezone:** UTC+7 Asia/Bangkok
