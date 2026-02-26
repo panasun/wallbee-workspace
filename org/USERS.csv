@@ -1,5 +1,5 @@
 email,first_name,last_name,nickname,employee_id,bu_id,dept_id,position_id,role_id,org_level,reports_to_email,telegram_chat_id,line_user_id,ms_teams_id,github_username,crm_user_id,access_level,employment_type,work_start,work_end,wfh_days,annual_leave,status,start_date,timezone
-panasun.s@siamraj.com,พนาสันต์,,บิน,EMP001,BU_A,SNO,L5_CEO,admin,5,,8436327384,,,,,5,fulltime,09:00,18:00,2,15,active,TBD,Asia/Bangkok
+panasun.s@siamraj.com,พนาสันต์,,บิน,EMP001,BU_A,SNO,L5_TECHLEAD,admin,5,,8436327384,,,,,5,fulltime,09:00,18:00,2,15,active,TBD,Asia/Bangkok
 charnwit.w@siamraj.com,ชาญวิทย์,,อ๊อฟ,EMP002,BU_A,SNO,L1_OFFICER,employee,1,panasun.s@siamraj.com,8653809145,,,,,1,fulltime,09:00,18:00,2,10,active,TBD,Asia/Bangkok
 chakrit.p@siamraj.com,ชาคริต,,ซาวด์,EMP003,BU_A,SNO,L1_OFFICER,employee,1,panasun.s@siamraj.com,,,,,,1,fulltime,09:00,18:00,2,10,active,TBD,Asia/Bangkok
 ramitapond.s@siamraj.com,รมิตาพร,,เดียร์,EMP004,BU_A,SNO,L1_OFFICER,employee,1,panasun.s@siamraj.com,8615278427,,,,,1,fulltime,09:00,18:00,2,10,active,TBD,Asia/Bangkok

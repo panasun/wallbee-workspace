@@ -6,5 +6,7 @@
 - **แผนก:** SNO
 - **Employee ID:** EMP001
 - **Telegram Chat ID:** 8436327384
+- **ตำแหน่ง:** Tech Lead
+- **Role:** admin / techlead
 - **Access Level:** 5 (Admin)
 - **Timezone:** UTC+7 Asia/Bangkok
