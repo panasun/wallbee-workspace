@@ -1,0 +1,184 @@
+# skills.yaml — Skills ที่ควรติดตั้งสำหรับ AI-Driven Org
+# แต่ละ skill เพิ่ม capability ให้ Bot
+# ติดตั้ง: openclaw skill install {skill-id}
+# ดู skills เพิ่มเติม: https://clawhub.ai/skills
+
+skills:
+
+  # === ติดตั้งแล้ว (Built-in) ===
+  built_in:
+    - id: weather
+      name: Weather
+      description: ดูสภาพอากาศ / พยากรณ์อากาศ
+      status: available
+
+    - id: healthcheck
+      name: Healthcheck
+      description: ตรวจสอบ security และ system health
+      status: available
+
+    - id: skill-creator
+      name: Skill Creator
+      description: สร้าง custom skill ใหม่
+      status: available
+
+  # === ควรติดตั้ง (Productivity) ===
+  productivity:
+    - id: google-calendar
+      name: Google Calendar
+      description: ดู/สร้าง/แก้ไข events, เตือนนัด
+      use_case: ทุกคน — เช็ค schedule, นัดประชุม
+      priority: HIGH
+
+    - id: google-drive
+      name: Google Drive
+      description: อ่าน/เขียน/ค้นหาไฟล์ใน Drive
+      use_case: Manager+ — เข้าถึงเอกสารองค์กร
+      priority: HIGH
+
+    - id: gmail
+      name: Gmail
+      description: อ่าน/ส่ง email, สรุป inbox
+      use_case: ทุกคน — สรุปอีเมลประจำวัน
+      priority: HIGH
+
+    - id: notion
+      name: Notion
+      description: อ่าน/เขียน Notion pages และ databases
+      use_case: Knowledge management
+      priority: MEDIUM
+
+    - id: todoist
+      name: Todoist / Task Manager
+      description: จัดการ tasks, reminders
+      use_case: ทุกคน — track งานรายวัน
+      priority: MEDIUM
+
+  # === ควรติดตั้ง (Communication) ===
+  communication:
+    - id: line
+      name: Line Business
+      description: ส่ง/รับข้อความ Line OA, อ่าน group chat
+      use_case: Sales, Customer Service — ติดต่อลูกค้า
+      priority: HIGH
+
+    - id: ms-teams
+      name: Microsoft Teams
+      description: ส่งข้อความ Teams, อ่าน channels
+      use_case: Internal communication
+      priority: MEDIUM
+
+    - id: slack
+      name: Slack
+      description: ส่ง/อ่านข้อความ Slack
+      use_case: Dev team communication
+      priority: MEDIUM
+
+  # === ควรติดตั้ง (Business) ===
+  business:
+    - id: hubspot
+      name: HubSpot CRM
+      description: leads, deals, contacts, pipeline
+      use_case: Sales — ดู/อัปเดต CRM
+      priority: HIGH
+
+    - id: salesforce
+      name: Salesforce CRM
+      description: leads, opportunities, accounts
+      use_case: Sales (ถ้าใช้ Salesforce)
+      priority: MEDIUM
+
+    - id: github
+      name: GitHub
+      description: issues, PRs, commits, repos
+      use_case: Dev team — track งาน
+      priority: HIGH
+
+    - id: jira
+      name: Jira
+      description: issues, sprints, backlogs
+      use_case: Dev / PM — project tracking
+      priority: MEDIUM
+
+    - id: powerbi
+      name: Power BI
+      description: query reports, embed dashboards
+      use_case: Manager+ — ดู data insights
+      priority: HIGH
+
+    - id: google-sheets
+      name: Google Sheets
+      description: อ่าน/เขียน Sheets, query data
+      use_case: Finance, HR, Ops — data entry
+      priority: HIGH
+
+  # === ควรติดตั้ง (HR / Finance) ===
+  hr_finance:
+    - id: leave-manager
+      name: Leave Manager
+      description: จัดการวันลา, เช็คยอดวันลา, อนุมัติ
+      use_case: HR + ทุกคน
+      priority: HIGH
+
+    - id: expense-tracker
+      name: Expense Tracker
+      description: เบิกค่าใช้จ่าย, อนุมัติ expense
+      use_case: ทุกคน — เบิกค่าใช้จ่าย
+      priority: MEDIUM
+
+    - id: payroll-summary
+      name: Payroll Summary
+      description: สรุปเงินเดือน, payslip
+      use_case: HR + Finance
+      priority: MEDIUM
+
+  # === Custom Skills (สร้างเอง) ===
+  custom:
+    - id: org-query
+      name: Org Query
+      description: query ข้อมูลองค์กรจาก GitHub workspace
+      use_case: ทุกคน — "ใครอยู่แผนกไหน", "KPI ของทีมเป็นยังไง"
+      status: TO_BUILD
+      priority: HIGH
+
+    - id: kpi-tracker
+      name: KPI Tracker
+      description: อัปเดตและ query KPI progress จาก PERFORMANCE.md
+      use_case: พนักงาน + Manager
+      status: TO_BUILD
+      priority: HIGH
+
+    - id: activity-logger
+      name: Activity Logger
+      description: บันทึกกิจกรรมลงใน ACTIVITY_LOG.md อัตโนมัติ
+      use_case: Sales, Dev — "ปิด deal แล้ว", "merge PR แล้ว"
+      status: TO_BUILD
+      priority: HIGH
+
+    - id: morning-briefing
+      name: Morning Briefing
+      description: สรุปงานของวันนี้: emails, meetings, KPI, tasks
+      use_case: ทุกคน — เริ่มต้นวันทำงาน
+      status: TO_BUILD
+      priority: HIGH
+
+    - id: crm-summary
+      name: CRM Summary
+      description: สรุป pipeline, leads ค้าง, deals ที่ต้อง follow up
+      use_case: Sales + Manager
+      status: TO_BUILD
+      priority: HIGH
+
+    - id: github-summary
+      name: GitHub Summary
+      description: สรุป issues, PRs, commits ของ dev team
+      use_case: Dev + Engineering Manager
+      status: TO_BUILD
+      priority: MEDIUM
+
+    - id: hr-assistant
+      name: HR Assistant
+      description: onboarding checklist, leave requests, policy Q&A
+      use_case: HR + ทุกคน
+      status: TO_BUILD
+      priority: MEDIUM
