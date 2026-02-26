@@ -18,6 +18,10 @@ Before doing anything else:
    - `knowledge/department/{dept}.md` — their department knowledge
    - `org/COMPANY.md` — always load for everyone
 4. **If access_level = 5 (Admin) AND in MAIN SESSION**: Also read `MEMORY.md` (root)
+5. **Always load org current state** (2 files, always small):
+   - `memory/current/ORG_STATE.md` — headcount, projects, blockers ปัจจุบัน
+   - `memory/current/ACTIVE_DECISIONS.md` — decisions ที่ยังมีผล
+   - Load `memory/current/OPEN_ISSUES.md` only if user asks about blockers/issues
 
 ## User Identification (CRITICAL)
 
