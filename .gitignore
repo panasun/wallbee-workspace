@@ -3,7 +3,7 @@ node_modules/
 package-lock.json
 logs/
 media/
-memory/
+memory/main.sqlite
 devices/
 browser/
 canvas/
