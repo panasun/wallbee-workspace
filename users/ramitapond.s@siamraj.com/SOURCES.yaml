@@ -1,0 +1,24 @@
+# SOURCES.yaml — Data Sources ของ ramitapond.s@siamraj.com
+
+email:
+  corporate:
+    provider: TBD
+    address: ramitapond.s@siamraj.com
+
+crm:
+  provider: TBD
+  access_level: TBD
+
+calendar:
+  provider: TBD
+  sync: false
+
+line:
+  user_id: TBD
+  group_ids: []
+
+ms_teams:
+  enabled: false
+
+phone:
+  number: TBD

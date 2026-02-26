@@ -1,0 +1,10 @@
+position_id,position_title,position_title_th,dept_id,org_level,reports_to_position_id,description
+L5_CEO,Chief Executive Officer,ประธานเจ้าหน้าที่บริหาร,EXEC,5,,สูงสุดขององค์กร
+L5_COO,Chief Operating Officer,ผู้อำนวยการฝ่ายปฏิบัติการ,EXEC,5,L5_CEO,
+L5_CFO,Chief Financial Officer,ผู้อำนวยการฝ่ายการเงิน,FIN,5,L5_CEO,
+L5_CTO,Chief Technology Officer,ผู้อำนวยการฝ่ายเทคโนโลยี,IT,5,L5_CEO,
+L5_CMO,Chief Marketing Officer,ผู้อำนวยการฝ่ายการตลาด,MKT,5,L5_CEO,
+L4_DEPT_HEAD,Department Head,หัวหน้าฝ่าย,TBD,4,L5_COO,หัวหน้าแต่ละแผนก
+L3_TEAM_LEAD,Team Lead / Senior Manager,ผู้นำทีม / ผู้จัดการอาวุโส,TBD,3,L4_DEPT_HEAD,
+L2_SENIOR,Senior Officer,เจ้าหน้าที่อาวุโส,TBD,2,L3_TEAM_LEAD,
+L1_OFFICER,Officer,เจ้าหน้าที่,TBD,1,L2_SENIOR,

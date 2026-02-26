@@ -1,0 +1,57 @@
+# integrations.yaml
+# รายการ integration ทั้งหมดขององค์กร
+
+email:
+  corporate:
+    provider: TBD              # gmail / outlook / other
+    domain: siamraj.com
+    imap_host: TBD
+    smtp_host: TBD
+  personal_gmail:
+    provider: gmail
+    enabled: true
+
+crm:
+  provider: TBD                # hubspot / salesforce / zoho / custom
+  base_url: TBD
+  api_key: vault:crm/global
+  access_by_role: [admin, manager, team_lead, senior]
+
+calendar:
+  provider: TBD                # google / outlook / other
+  sync_enabled: true
+
+line:
+  oa_channel_id: TBD
+  oa_channel_secret: vault:line/oa
+  group_ids: []                # เพิ่ม group IDs ที่ต้องการ
+
+ms_teams:
+  tenant_id: TBD
+  client_id: TBD
+  client_secret: vault:teams/global
+  enabled: false               # เปิดเมื่อพร้อม
+
+google_workspace:
+  domain: TBD
+  service_account: vault:google/service-account
+  drive_enabled: false
+  sheets_enabled: false
+  calendar_enabled: false
+
+erp:
+  provider: TBD                # sap / oracle / custom
+  base_url: TBD
+  api_key: vault:erp/global
+  enabled: false
+
+powerbi:
+  workspace_id: TBD
+  embed_token: vault:powerbi/token
+  report_ids: {}               # เพิ่ม report IDs ที่ต้องการ
+  enabled: false
+
+phone:
+  provider: TBD                # twilio / true / ais
+  api_key: vault:phone/global
+  enabled: false

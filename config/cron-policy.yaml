@@ -1,0 +1,53 @@
+# cron-policy.yaml
+# กำหนดว่าแต่ละ role ตั้ง cron ได้แค่ไหน
+
+roles:
+  admin:
+    enabled: true
+    max_jobs: unlimited
+    allowed_types: [agentTurn, systemEvent, webhook]
+    allowed_schedules: [any]
+
+  manager:
+    enabled: true
+    max_jobs: 10
+    allowed_types: [agentTurn, systemEvent]
+    allowed_schedules: [daily, weekly, monthly]
+
+  team_lead:
+    enabled: true
+    max_jobs: 5
+    allowed_types: [agentTurn, systemEvent]
+    allowed_schedules: [daily, weekly]
+
+  senior:
+    enabled: true
+    max_jobs: 3
+    allowed_types: [systemEvent]
+    allowed_schedules: [daily, weekly]
+
+  employee:
+    enabled: false
+    max_jobs: 0
+
+# Default cron jobs ที่ทุกคนได้รับ (ตั้งโดย admin)
+defaults:
+  - name: morning-email-summary
+    schedule: "0 8 * * *"   # ทุกเช้า 08:00 (Asia/Bangkok)
+    roles: [admin, manager, team_lead, senior]
+    description: สรุปอีเมลสำคัญประจำวัน
+
+  - name: daily-briefing
+    schedule: "30 7 * * 1-5"  # จันทร์-ศุกร์ 07:30
+    roles: [admin, manager]
+    description: สรุปงาน KPI และ tasks ประจำวัน
+
+  - name: weekly-kpi-report
+    schedule: "0 8 * * 1"    # ทุกจันทร์ 08:00
+    roles: [admin, manager]
+    description: รายงาน KPI รายสัปดาห์
+
+  - name: crm-followup-reminder
+    schedule: "0 9 * * 1-5"  # จันทร์-ศุกร์ 09:00
+    roles: [admin, manager, team_lead, senior]
+    description: เตือน follow up leads/deals ใน CRM

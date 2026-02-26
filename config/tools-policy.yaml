@@ -1,0 +1,113 @@
+# tools-policy.yaml
+# กำหนดว่าแต่ละ role ใช้ tool อะไรได้บ้าง
+
+roles:
+  admin:
+    exec: true
+    web_search: true
+    web_fetch: true
+    browser: true
+    email_read: true
+    email_send: true
+    crm_read: true
+    crm_write: true
+    calendar_read: true
+    calendar_write: true
+    drive_read: true
+    drive_write: true
+    erp_read: true
+    erp_write: false       # ต้อง approve ก่อน write ERP
+    powerbi: true
+    line_read: true
+    line_send: true
+    ms_teams: true
+    memory_read_others: true
+    memory_write: true
+
+  manager:
+    exec: true
+    web_search: true
+    web_fetch: true
+    browser: false
+    email_read: true
+    email_send: true
+    crm_read: true
+    crm_write: true
+    calendar_read: true
+    calendar_write: true
+    drive_read: true
+    drive_write: true
+    erp_read: true
+    erp_write: false
+    powerbi: true
+    line_read: true
+    line_send: true
+    ms_teams: true
+    memory_read_others: false   # เห็นแค่ทีมตัวเอง
+    memory_write: true
+
+  team_lead:
+    exec: false
+    web_search: true
+    web_fetch: true
+    browser: false
+    email_read: true
+    email_send: true
+    crm_read: true
+    crm_write: true
+    calendar_read: true
+    calendar_write: true
+    drive_read: true
+    drive_write: false
+    erp_read: true
+    erp_write: false
+    powerbi: true
+    line_read: true
+    line_send: true
+    ms_teams: true
+    memory_read_others: false
+    memory_write: true
+
+  senior:
+    exec: false
+    web_search: true
+    web_fetch: true
+    browser: false
+    email_read: true
+    email_send: true
+    crm_read: true
+    crm_write: false
+    calendar_read: true
+    calendar_write: true
+    drive_read: true
+    drive_write: false
+    erp_read: false
+    erp_write: false
+    powerbi: false
+    line_read: true
+    line_send: false
+    ms_teams: true
+    memory_read_others: false
+    memory_write: true
+
+  employee:
+    exec: false
+    web_search: true
+    web_fetch: true
+    browser: false
+    email_read: true
+    email_send: true
+    crm_read: false
+    crm_write: false
+    calendar_read: true
+    calendar_write: true
+    drive_read: false
+    drive_write: false
+    erp_read: false
+    erp_write: false
+    powerbi: false
+    line_read: false
+    line_send: false
+    ms_teams: true
+    memory_read_others: false
+    memory_write: true

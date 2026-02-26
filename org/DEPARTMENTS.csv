@@ -1,0 +1,8 @@
+dept_id,dept_name,dept_name_th,parent_dept_id,head_email,description,status
+EXEC,Executive,ผู้บริหาร,,TBD,ฝ่ายบริหารสูงสุด,active
+SNO,Sales & Network Operations,ขายและปฏิบัติการ,EXEC,TBD,ฝ่ายขายและดำเนินงาน,active
+HR,Human Resources,ทรัพยากรบุคคล,EXEC,TBD,ฝ่าย HR,active
+FIN,Finance & Accounting,การเงินและบัญชี,EXEC,TBD,ฝ่ายการเงิน,active
+IT,Information Technology,เทคโนโลยีสารสนเทศ,EXEC,TBD,ฝ่าย IT,active
+MKT,Marketing,การตลาด,EXEC,TBD,ฝ่ายการตลาด,active
+OPS,Operations,ปฏิบัติการ,EXEC,TBD,ฝ่ายปฏิบัติการ,active

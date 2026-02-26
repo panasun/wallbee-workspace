@@ -1,20 +1,31 @@
-# COMPANY.md — ข้อมูลองค์กร
+# COMPANY.md — ข้อมูลองค์กร Siamraj
 
 ## บริษัท
-- **ชื่อ:** Siamraj
+- **ชื่อ:** Siamraj Co., Ltd.
 - **Domain:** siamraj.com
-- **แผนก SNO:** _(อธิบายเพิ่มเติมได้)_
+- **Website:** TBD
+- **ที่อยู่:** TBD
+- **เบอร์โทร:** TBD
 
-## Mail Server
-- Provider: _(Gmail / Outlook / อื่นๆ — กรอกภายหลัง)_
-- IMAP Host: _(กรอกภายหลัง)_
+## Vision & Mission
+- **Vision:** TBD
+- **Mission:** TBD
+- **Core Values:** TBD
 
-## Integrations
-- ERP: _(กรอกภายหลัง)_
-- Power BI: _(กรอกภายหลัง)_
-- Google Drive / SharePoint: _(กรอกภายหลัง)_
+## โครงสร้างองค์กร
+- 5 ระดับชั้น (org_level 1-5)
+- ดูรายละเอียดใน `ORG_CHART.md`
+- ดูแผนกใน `DEPARTMENTS.csv`
+- ดูตำแหน่งใน `POSITIONS.csv`
+- ดูพนักงานใน `USERS.csv`
 
-## Access Levels
-- 5 = Admin (เห็นทุกอย่าง)
-- 3 = Manager (เห็นแผนกตัวเอง)
-- 1 = Employee (เห็นแค่ของตัวเอง + org knowledge)
+## Products & Services
+_(กรอกภายหลัง — ดูเพิ่มเติมใน knowledge/products/)_
+
+## Key Contacts
+- **CEO:** TBD
+- **HR:** TBD
+- **IT Support:** TBD
+
+## Policies
+_(ดูเพิ่มเติมใน knowledge/sop/)_

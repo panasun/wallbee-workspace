@@ -1,0 +1,32 @@
+# SOURCES.yaml — Data Sources ของ panasun.s@siamraj.com
+
+email:
+  personal:
+    provider: gmail
+    address: panasun@i17.co
+    imap_secret: vault:email/panasun
+  corporate:
+    provider: TBD
+    address: panasun.s@siamraj.com
+
+crm:
+  provider: TBD
+  access_level: admin
+
+calendar:
+  provider: google
+  sync: true
+
+line:
+  user_id: TBD
+  group_ids: []
+
+ms_teams:
+  enabled: false
+
+phone:
+  number: TBD
+
+drive:
+  personal: TBD
+  team: TBD

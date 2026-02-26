@@ -1,0 +1,24 @@
+# SOURCES.yaml — Data Sources ของ chakrit.p@siamraj.com
+
+email:
+  corporate:
+    provider: TBD
+    address: chakrit.p@siamraj.com
+
+crm:
+  provider: TBD
+  access_level: TBD
+
+calendar:
+  provider: TBD
+  sync: false
+
+line:
+  user_id: TBD
+  group_ids: []
+
+ms_teams:
+  enabled: false
+
+phone:
+  number: TBD
