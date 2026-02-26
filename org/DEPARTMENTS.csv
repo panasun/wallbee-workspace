@@ -1,8 +1,13 @@
-dept_id,dept_name,dept_name_th,parent_dept_id,head_email,description,status
-EXEC,Executive,ผู้บริหาร,,TBD,ฝ่ายบริหารสูงสุด,active
-SNO,Sales & Network Operations,ขายและปฏิบัติการ,EXEC,TBD,ฝ่ายขายและดำเนินงาน,active
-HR,Human Resources,ทรัพยากรบุคคล,EXEC,TBD,ฝ่าย HR,active
-FIN,Finance & Accounting,การเงินและบัญชี,EXEC,TBD,ฝ่ายการเงิน,active
-IT,Information Technology,เทคโนโลยีสารสนเทศ,EXEC,TBD,ฝ่าย IT,active
-MKT,Marketing,การตลาด,EXEC,TBD,ฝ่ายการตลาด,active
-OPS,Operations,ปฏิบัติการ,EXEC,TBD,ฝ่ายปฏิบัติการ,active
+dept_id,dept_name,dept_name_th,bu_id,parent_dept_id,head_email,is_shared_service,status,description
+EXEC,Executive,ผู้บริหาร,SHARED,,TBD,false,active,ฝ่ายบริหารสูงสุด
+SALES_A,Sales BU-A,ขาย (BU-A),BU_A,EXEC,TBD,false,active,ทีมขาย BU เทคโนโลยี
+OPS_A,Operations BU-A,ปฏิบัติการ (BU-A),BU_A,EXEC,TBD,false,active,ทีม Ops BU เทคโนโลยี
+DEV_A,Development BU-A,พัฒนา (BU-A),BU_A,EXEC,TBD,false,active,ทีม Dev BU เทคโนโลยี
+SALES_B,Sales BU-B,ขาย (BU-B),BU_B,EXEC,TBD,false,active,ทีมขาย BU บริการ
+OPS_B,Operations BU-B,ปฏิบัติการ (BU-B),BU_B,EXEC,TBD,false,active,ทีม Ops BU บริการ
+SNO,Sales & Network Ops,ขายและปฏิบัติการ,BU_A,EXEC,TBD,false,active,แผนก SNO ปัจจุบัน
+HR,Human Resources,ทรัพยากรบุคคล,SHARED,EXEC,TBD,true,active,ฝ่าย HR กลาง
+FIN,Finance & Accounting,การเงินและบัญชี,SHARED,EXEC,TBD,true,active,ฝ่ายการเงินกลาง
+IT,Information Technology,เทคโนโลยีสารสนเทศ,SHARED,EXEC,TBD,true,active,ฝ่าย IT กลาง
+MKT,Marketing,การตลาด,SHARED,EXEC,TBD,true,active,ฝ่ายการตลาดกลาง
+LEGAL,Legal & Compliance,กฎหมาย,SHARED,EXEC,TBD,true,active,ฝ่ายกฎหมายกลาง

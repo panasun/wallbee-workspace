@@ -1,0 +1,5 @@
+bu_id,bu_name,bu_name_th,bu_head_email,business_type,revenue_target_annual,cost_center,status,description
+BU_A,Technology Solutions,เทคโนโลยี,TBD,B2B,TBD,CC001,active,ธุรกิจซอฟต์แวร์และ IT Solutions
+BU_B,Managed Services,บริการจัดการ,TBD,B2B,TBD,CC002,active,ธุรกิจ Outsource และ Managed Services
+BU_C,Distribution,จัดจำหน่าย,TBD,B2B,TBD,CC003,active,ธุรกิจจัดจำหน่ายสินค้า
+SHARED,Shared Services,บริการกลาง,TBD,INTERNAL,TBD,CC000,active,HR / Finance / IT / Legal

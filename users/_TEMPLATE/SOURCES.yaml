@@ -1,0 +1,56 @@
+# SOURCES.yaml — Data Sources
+# แก้ไขตาม role และ integration ที่ใช้จริง
+
+email:
+  corporate:
+    provider: TBD              # gmail / outlook
+    address: TBD@siamraj.com
+    imap_secret: vault:email/NAME
+  personal: ~                  # ถ้ามี
+
+# === Sales ===
+crm:
+  enabled: false               # เปิดสำหรับ Sales role
+  provider: TBD                # hubspot / salesforce / zoho
+  user_id: TBD
+  token: vault:crm/NAME
+  access: [contacts, deals, leads, reports]
+
+# === Dev ===
+github:
+  enabled: false               # เปิดสำหรับ Dev role
+  username: TBD
+  token: vault:github/NAME
+  repos: []
+  watch: [issues, commits, prs]
+
+# === Ops / PM ===
+project_management:
+  enabled: false               # clickup / jira / asana / linear
+  provider: TBD
+  user_id: TBD
+  token: vault:pm/NAME
+  projects: []
+
+# === All ===
+calendar:
+  provider: TBD                # google / outlook
+  sync: false
+
+line:
+  user_id: TBD
+  groups: []
+
+ms_teams:
+  enabled: false
+  user_id: TBD
+  channels: []
+
+drive:
+  provider: TBD                # google / sharepoint
+  personal_folder: TBD
+  team_folder: TBD
+
+phone:
+  number: TBD
+  provider: TBD
