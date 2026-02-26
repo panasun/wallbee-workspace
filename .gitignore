@@ -1,4 +1,14 @@
 node_modules/
 *.log
-.env
 package-lock.json
+logs/
+media/
+memory/
+devices/
+browser/
+canvas/
+delivery-queue/
+exec-approvals.json
+update-check.json
+*.bak
+*.bak.*
