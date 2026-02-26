@@ -1,0 +1,23 @@
+# CODEOWNERS — ใครแก้ไขไฟล์ไหนได้
+
+# Default — Admin เท่านั้น
+* @panasun
+
+# Org Registry — Admin + HR
+/org/ @panasun
+/org/USERS.csv @panasun
+
+# User profiles — แต่ละคนแก้ของตัวเอง + HR
+/users/ @panasun
+
+# Config — Admin + IT
+/config/ @panasun
+
+# Knowledge — ทุกคน propose ได้ แต่ Admin approve
+/knowledge/ @panasun
+
+# Plans — Admin + Managers
+/plans/ @panasun
+
+# BU data — BU Head + Admin
+/bu/ @panasun

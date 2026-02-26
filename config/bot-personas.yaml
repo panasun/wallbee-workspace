@@ -1,0 +1,27 @@
+# bot-personas.yaml
+# รองรับหลาย Bot ต่างทีม/BU
+
+bots:
+  wallbee_main:
+    name: WallBee
+    telegram_handle: "@wallbee_bot"
+    scope: global               # เห็นทุก BU
+    allowed_users: all          # จาก allowFrom ใน openclaw.json
+    workspace: /root/.openclaw/workspace
+    persona: SOUL.md
+
+  # ตัวอย่างถ้าต้องการ Bot แยกต่อ BU
+  # wallbee_bu_a:
+  #   name: WallBee BU-A
+  #   telegram_handle: "@wallbee_bua_bot"
+  #   scope: bu                 # เห็นแค่ BU_A
+  #   scope_filter: BU_A
+  #   allowed_dept: [SALES_A, OPS_A, DEV_A]
+  #   workspace: /root/.openclaw/workspace
+
+  # wallbee_hr:
+  #   name: HR Bot
+  #   telegram_handle: "@wallbee_hr_bot"
+  #   scope: dept
+  #   scope_filter: HR
+  #   allowed_dept: [HR]

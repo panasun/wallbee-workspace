@@ -1,0 +1,4 @@
+country_code,country_name,country_name_th,currency,timezone,labor_law,status
+TH,Thailand,ไทย,THB,Asia/Bangkok,Thai Labor Law,active
+SG,Singapore,สิงคโปร์,SGD,Asia/Singapore,Singapore Employment Act,inactive
+US,United States,สหรัฐอเมริกา,USD,America/New_York,US Federal Labor Law,inactive
