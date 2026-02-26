@@ -40,7 +40,7 @@
     "telegram": {
       "enabled": true,
       "dmPolicy": "allowlist",
-      "allowFrom": ["8436327384", "8653809145"],
+      "allowFrom": ["8436327384", "8653809145", "8615278427"],
       "botToken": "TELEGRAM_BOT_TOKEN",
       "groupPolicy": "allowlist",
       "streaming": "off"
