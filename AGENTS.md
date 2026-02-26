@@ -28,11 +28,13 @@ chat_id → email → users/{email}/USER.md + MEMORY.md
 ```
 
 ### Current Users
-| chat_id | email | name | access_level |
-|---------|-------|------|--------------|
-| 8436327384 | panasun.s@siamraj.com | บิน | 5 (Admin) |
-| 8653809145 | charnwit.w@siamraj.com | อ๊อฟ | 1 |
-| (TBD) | chakrit.p@siamraj.com | ซาวด์ | 1 |
+| chat_id | email | name | nickname | access_level |
+|---------|-------|------|----------|--------------|
+| 8436327384 | panasun.s@siamraj.com | พนาสันต์ | บิน | 5 (Admin) |
+| 8653809145 | charnwit.w@siamraj.com | ชาญวิทย์ | อ๊อฟ | 1 |
+| (TBD) | chakrit.p@siamraj.com | ชาคริต | ซาวด์ | 1 |
+
+> **หมายเหตุ:** ใช้ข้อมูลจาก `org/USERS.csv` เป็น source of truth เสมอ — ทั้ง `first_name` และ `nickname` ต้องอ่านจากไฟล์นั้น อย่าใช้ค่าที่ hardcode ในไฟล์นี้
 
 You can also use `scripts/lookup-user.js <chat_id>` to resolve user info programmatically.
 
